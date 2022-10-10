@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98659FC928F43AF500A7B4E1 /* SportsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98659FC828F43AF500A7B4E1 /* SportsData.swift */; };
 		98F90B9B28F4031600F5C090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F90B9A28F4031600F5C090 /* AppDelegate.swift */; };
 		98F90B9D28F4031600F5C090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F90B9C28F4031600F5C090 /* SceneDelegate.swift */; };
 		98F90B9F28F4031600F5C090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F90B9E28F4031600F5C090 /* ViewController.swift */; };
 		98F90BA228F4031600F5C090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F90BA028F4031600F5C090 /* Main.storyboard */; };
 		98F90BA428F4031800F5C090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F90BA328F4031800F5C090 /* Assets.xcassets */; };
 		98F90BA728F4031800F5C090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F90BA528F4031800F5C090 /* LaunchScreen.storyboard */; };
+		98F90BAF28F4072300F5C090 /* MyCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F90BAE28F4072300F5C090 /* MyCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98659FC828F43AF500A7B4E1 /* SportsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsData.swift; sourceTree = "<group>"; };
 		98F90B9728F4031600F5C090 /* FecthDataImageFromJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FecthDataImageFromJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F90B9A28F4031600F5C090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F90B9C28F4031600F5C090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		98F90BA328F4031800F5C090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F90BA628F4031800F5C090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F90BA828F4031800F5C090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F90BAE28F4072300F5C090 /* MyCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98659FCA28F43AFC00A7B4E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98659FC828F43AF500A7B4E1 /* SportsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		98F90B8E28F4031600F5C090 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +68,11 @@
 		98F90B9928F4031600F5C090 /* FecthDataImageFromJSON */ = {
 			isa = PBXGroup;
 			children = (
+				98659FCA28F43AFC00A7B4E1 /* Model */,
 				98F90B9A28F4031600F5C090 /* AppDelegate.swift */,
 				98F90B9C28F4031600F5C090 /* SceneDelegate.swift */,
 				98F90B9E28F4031600F5C090 /* ViewController.swift */,
+				98F90BAE28F4072300F5C090 /* MyCollectionCell.swift */,
 				98F90BA028F4031600F5C090 /* Main.storyboard */,
 				98F90BA328F4031800F5C090 /* Assets.xcassets */,
 				98F90BA528F4031800F5C090 /* LaunchScreen.storyboard */,
@@ -141,6 +155,8 @@
 				98F90B9F28F4031600F5C090 /* ViewController.swift in Sources */,
 				98F90B9B28F4031600F5C090 /* AppDelegate.swift in Sources */,
 				98F90B9D28F4031600F5C090 /* SceneDelegate.swift in Sources */,
+				98659FC928F43AF500A7B4E1 /* SportsData.swift in Sources */,
+				98F90BAF28F4072300F5C090 /* MyCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
